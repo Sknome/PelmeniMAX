@@ -135,15 +135,162 @@
           width: 200px;
           position: relative;
           bottom: 460px;;
-       right: 500px;
+       right: 280px;
       }
       .max_pelmen{
    font-family: 'Press Start 2P';
    font-weight: bold ;
    position: relative;
    font-size: 19px;
-   right: 800px;
+   right: 570px;
    bottom: 460px;
       }
 
+      .max_price{font-family: 'Press Start 2P';
+        font-weight: bold ;
+        position: relative;
+        font-size: 14px;
+        text-align: center;
+        bottom: 430px;
+        right: 10px;
+      }
+      .max_farch{font-family: 'Press Start 2P';
+        font-weight: bold ;
+        position: relative;
+        font-size: 14px;
+        text-align: center;
+        bottom: 400px;
+        right: 11px;
+      
+      }
   
+    .strelka_right{position: relative;
+    display: flex;
+    bottom: 550px;
+    width: 50px;
+    left: 1350px;
+  }
+
+  .pelmen_2{
+    width: 200px;
+    position: relative;
+    bottom: 500px;;
+ right: 280px;
+}
+    .strelka_left{position: relative;
+    display: flex;
+    bottom: 550px;
+    width: 50px;
+    left: 460px;
+  }
+  .back{position: relative;
+    font-size: 15px;
+bottom: 760px;
+left: 490px;
+text-decoration: none;
+color: black;
+font-family: 'Press Start 2P';
+        font-weight: bold ;
+
+}
+
+.back:hover{color: rgb(119, 12, 12);}
+
+
+.dostavka_gif{position: relative;
+width: 10%;
+bottom: 220px;
+right: -850px;
+align-content: center;
+}
+.main_main_menu1{position: relative;
+top: 200px;
+width: 1100px;
+left: 400px;
+}
+
+.dostavka_text{
+  color: black;
+  font-family: 'Press Start 2P';
+          font-weight: bold ;
+          position: relative;
+          top: -410px;
+          text-align: center;
+
+}
+.dostavka_text_2{
+  color: black;
+  font-family: 'Press Start 2P';
+          font-weight: bold ;
+          position: relative;
+          text-align: center;
+          bottom: 300px;
+
+}
+.dostavka_price{
+  color: black;
+  font-family: 'Press Start 2P';
+          font-weight: bold ;
+          position: relative;
+          text-align: center;
+          bottom: 300px;
+}
+.ul_dostavka{
+  color: black;
+  font-family: 'Press Start 2P';
+          font-weight: bold ;
+          position: relative;
+          text-align: center;
+          bottom: 280px;
+          
+}
+.ul_dostavka2{color: black;
+  font-family: 'Press Start 2P';
+          font-weight: bold ;
+          position: relative;
+          text-align: center;
+          bottom: 280px;}
+
+          .back1{position: relative;
+            font-size: 15px;
+        bottom: 590px;
+        left: 490px;
+        text-decoration: none;
+        color: black;
+        font-family: 'Press Start 2P';
+                font-weight: bold ;}
+                .back1:hover{color: rgb(119, 12, 12);}
+
+            .map{position: relative;
+          top: 250px;
+          left: 640px;
+            }
+
+        .karta_text1{  text-decoration: none;
+          color: #f01a1a;
+          font-family: 'Press Start 2P';
+          position: relative;
+                  font-weight: bold;
+                  text-align: center;
+                  bottom: 300px;
+                  font-size: 40px;
+              
+                }
+
+                .back_karta{position: relative;
+                  font-size: 20px;
+              bottom: -220px;
+              left: 890px;            
+              text-decoration: none;
+              color: #f01a1a;
+              font-family: 'Press Start 2P';
+                      font-weight: bold ;
+                    
+          
+              }        
+              .back_karta:hover{color: rgb(119, 12, 12);}
+              
+              .kotik{position: relative;
+              bottom: 270px;
+              left: 760px;
+              }
