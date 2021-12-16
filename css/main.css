@@ -1,54 +1,149 @@
-@font-face {
-    font-family: 'Rubens Modern';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/Rubens\ Modern.ttf') format('truetype'), 
-         url('../fonts/Rubens\ Modern.ttf') format('woff'), 
-         url('../fonts/Rubens\ Modern.ttf') format('woff'), 
-}
-body{ background: url(../img/sosy.png) no-repeat;
-    width: 90%;
-    height: 90%;
-  }
+    @font-face {
+        font-family: 'Rubens Modern';
+        font-style: normal;
+        font-weight: 400;
+        src: local(''),
+            url('../fonts/Rubens\ Modern.ttf') format('truetype'), 
+            url('../fonts/Rubens\ Modern.ttf') format('woff'), 
+            url('../fonts/Rubens\ Modern.ttf') format('woff'), 
+    }
 
-.header_main_text{
-    color: #f01a1a;
-    font-size: 135px;
+    body{ background: url(../img/sosy.png) no-repeat;
+      
+
+      }
+
+    .header_main_text{
+        color: #f01a1a;
+        font-size: 135px;
     position: relative;
-    left: 550px;
-    top: 10px;
-    font-family: 'Rubens Modern';
-}
+      text-align: center;
 
-.landing-start-arrow{
-  -webkit-animation: blink2 1s linear infinite;
-  font-family: 'Press Start 2P', cursive;
-    animation: blink2 1s linear infinite;
-    font-size: 40px;
-    color: #f01a1a;
+        font-family: 'Rubens Modern';
+    }
+
+    .landing-start-arrow{
+      -webkit-animation: blink2 1s linear infinite;
+      font-family: 'Press Start 2P', cursive;
+        animation: blink2 1s linear infinite;
+        font-size: 40px;
+        color: #f01a1a;
+        position: relative;
+        top: 153px;
+        left: 700px;
+      
+      }
+      @-webkit-keyframes blink2 {
+        100% { color: rgba(34, 34, 34, 0); }
+      }
+      @keyframes blink2 {
+        100% { color: rgba(34, 34, 34, 0); }
+      }
+
+      .press-start{
+        font-family: 'Press Start 2P', cursive;
+        font-size:  30px;
+        text-decoration: none;
+        background: none;
+        border: none;
+        color: #f01a1a;
+        position: relative;
+        top: 150px;
+        left: 700px;
+        
+      }
+      .press-start:hover{color: rgb(119, 12, 12);}
+
+    .main_main_menu{
+    width: 1100px;
+      position: relative;
+      bottom: 200px;
+    left: 400px;
+
+    }
+    .main_katalog{
     position: relative;
-    top: 153px;
-    left: 750px;
-   
-  }
-  @-webkit-keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  }
-  @keyframes blink2 {
-    100% { color: rgba(34, 34, 34, 0); }
-  }
+    top: -510px;
+    left: -590px;
+    width: 170px;
+    }
+    .main_katalog_text{
+      font-family: 'Press Start 2P';
+      position: relative;
+      bottom: 470px;
+      right: 760px;
+      font-weight: bold ;
+      text-decoration: none;
+      color: black;
+    }
+    .main_katalog_text:hover{ color: rgb(11, 14, 190);}
 
-  .press-start{
-    font-family: 'Press Start 2P', cursive;
-    font-size:  30px;
-    text-decoration: none;
-    background: none;
-    border: none;
-    color: #f01a1a;
-    position: relative;
-    top: 150px;
-    left: 750px;
-  }
-  .press-start:hover{color: rgb(119, 12, 12);}
+    .main_dostavka{
+      position: relative;
+      top: -530px;
+      left: -650px;
+      width: 230px;
+      }
+      .main_dostavka_text{
+        font-family: 'Press Start 2P';
+        width: 170px;
+        position: relative;
+        right: 820px;
+        top: -472px;
+        font-weight: bold ;
+        text-decoration: none;
+        color: black;
+      }
+.main_dostavka_text:hover{ color: rgb(11, 14, 190);}
+      .main_karta{
+        position: relative;
+      left: 1170px;
+      bottom: 650px;
+      
+        }
+        .main_karta_text{
+          font-family: 'Press Start 2P';
+          width: 170px;
+          position: relative;
+      bottom: 590px;
+      left: 980px;
+          font-weight: bold ;
+          text-decoration: none;
+          color: black;
+        }
+ .main_karta_text:hover{ color: rgb(11, 14, 190);}
 
+        .main_info{
+          position: relative;
+          left: 460px;
+          bottom: 435px;
+        }
+        .main_info_text{
+          font-family: 'Press Start 2P';
+          width: 170px;
+          position: relative;
+          left: 360px;
+          bottom: 400px;
+          font-weight: bold ;
+          text-decoration: none;
+          color: black;
+        }
+        .main_info_text:hover{ color: rgb(11, 14, 190);}
+
+ 
+      .pelmen_1{
+          width: 200px;
+          position: relative;
+          bottom: 460px;;
+       right: 500px;
+      }
+      .max_pelmen{
+   font-family: 'Press Start 2P';
+   font-weight: bold ;
+   position: relative;
+   font-size: 19px;
+   right: 800px;
+   bottom: 460px;
+      }
+
+  
